@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  background: #FFF;
+  width: auto;
+  height: 80px;
+  z-index: 100;
+  margin-top: 20px;
+}
+
+ul {
+  position: fixed;
+  display: flex;
+  list-style: none;
+  right: 10px;
+  margin-bottom: 50px;
+}
+
+ul li {
+  padding-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.imgcolection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgcolection-img1 {
+  width: 25%;
+  height: 20%;
+}
+
+.imgcolection-img2 {
+  width: 25%;
+  height: 50%;
+}
