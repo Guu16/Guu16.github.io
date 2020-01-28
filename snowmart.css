@@ -1,0 +1,112 @@
+.snowimg {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 710px;
+  margin: 50px auto;
+}
+
+.snowimg_topimg {
+  width: 100%;
+  height: auto;
+}
+
+.snowinfo {
+  text-align: center;
+  max-width: 710px;
+  margin: 0 auto;
+}
+
+.snowinfo_text1 {
+  text-align: left;
+  margin: 20px auto;
+}
+
+.snowinfo_text2 {
+  text-align: left;
+  margin: 20px auto;
+}
+
+.snowinfo_text3 {
+  text-align: left;
+  margin: 20px auto;
+}
+
+.snowinfo_text4 {
+  text-align: left;
+  margin: 20px auto;
+}
+
+.snowinfo_text5 {
+  text-align: left;
+  margin: 20px auto;
+}
+
+.snowui {
+  padding-top: 100px;
+  max-width: 710px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.snowui_imgui {
+  width: 50%;
+  height: 25%;
+  padding-right: 0;
+}
+
+.snowui_info_uitext {
+  margin-left: 65px;
+  font-weight: 600px;
+}
+
+.snowui_info_uitext2 {
+  margin-left: 65px;
+  text-align: left;
+}
+
+.snowui_info_uitext3 {
+  margin-left: 65px;
+  text-align: left;
+}
+
+.snowui_info_uitext4 {
+  margin-left: 65px;
+  text-align: left;
+}
+
+.snowui2 {
+  padding-top: 200px;
+  max-width: 710px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.snowui2_imgui {
+  width: 50%;
+  height: 25%;
+  padding-right: 0;
+}
+
+.snowui2_info_uitext {
+  margin-right: 65px;
+  font-weight: 600px;
+  text-align: left;
+}
+
+.snowui2_info_uitext2 {
+  margin-right: 65px;
+  text-align: left;
+}
+
+.snowui2_info_uitext3 {
+  margin-right: 65px;
+  text-align: left;
+}
+
+.snowui2_info_uitext4 {
+  margin-right: 65px;
+  text-align: left;
+}
