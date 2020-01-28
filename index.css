@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background: #FFF;
+  background: #fff;
   width: auto;
   height: 80px;
   z-index: 100;
@@ -25,24 +25,25 @@ ul li {
 
 ul li .link_text {
   text-decoration: none;
+  color: #333;
   text-decoration-style: none;
 }
 
-ul li .link_text:visited, ul li .link_text :active {
+ul li .link_text:visited,
+ul li .link_text :active {
   text-decoration-style: none;
   text-decoration-color: none;
   text-decoration: none;
 }
 
-h1 {
+.toptitle {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
   background: transparent linear-gradient(90deg, rgba(111, 165, 252, 0.46) 0%, rgba(227, 60, 111, 0.46) 100%) 0% 0% no-repeat padding-box;
   width: 100%;
-  height: 30px;
-  color: #FFF;
-  margin: 0;
+  height: 50px;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 0;
 }
 
 .imgcolection {
@@ -55,7 +56,17 @@ h1 {
   height: 20%;
 }
 
+.imgcolection-img1-spot {
+  width: 100%;
+  height: 50%;
+}
+
 .imgcolection-img2 {
   width: 25%;
+  height: 50%;
+}
+
+.imgcolection-img2-spot {
+  width: 100%;
   height: 50%;
 }
