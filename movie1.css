@@ -1,0 +1,50 @@
+.movie {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin-top: 100px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.movie_img {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.movie_img_contents1 {
+  width: 100%;
+  height: 100%;
+}
+
+.movie_img1 {
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.movie_img1_contents1 {
+  width: 100%;
+  height: 100%;
+}
+
+.movie_img2 {
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.movie_img2_contents1 {
+  width: 100%;
+  height: 100%;
+}
+
+.movie_texts {
+  margin-left: 50px;
+}
