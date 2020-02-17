@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="jfp.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="global-nav">
+            <ul class="global-nav__list">
+                <li class="global-nav__item"><a href="index.html">HOME</a></li>
+                <li class="global-nav__item"><a href="works.html">WORKS</a></li>
+                <li class="global-nav__item"><a href="about.html">ABOUT</a></li>
+                <li class="global-nav__item"><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+        <div class="black-bg" id="js-black-bg"></div>
+    </header>
+    <article>
+        <h1 class="toptitle">JFP</h1> 
+        <div class="jfpimg">
+            <img class="jfpimg_topimg" src="img20191113_JFP.png" alt="">
+        </div>
+        <div class="jfpinfo">
+            <p class="jfpinfo_text1">外国人観光客へ向けた<br />定型文アプリケーション</p>
+            <p class="jfpinfo_text2">作成時期 : 2019年11月</p>
+            <p class="jfpinfo_text3">作成時間 : 3週間</p>
+            <p class="jfpinfo_text4">使用ソフト : Illustrator, Xd</p>
+            <p class="jfpinfo_text5">ターゲット : 日本語が苦手な外国人</p>
+            <p class="jfpinfo_text6">由来　:　Japanese Fixed Phraseの<br />頭文字取ったもの</p>
+        </div>
+    
+        <h1 class="jfptext">サービスの目的</h1>
+        <div class="jfpui">
+            <!-- <img class="jfpui_imgui" src="TYPE4.png" alt=""> -->
+            <div class="jfpui_info">
+                <p class="jfpui_info_uitext">・施設で日本人とコミュニケーションが取れないという問題点からコミュニケーションを流暢にする</p>
+                <p class="jfpui_info_uitext2">
+                    ・外国人観光客がもつ日本におけるコミュニケーション問題を解決する</p>
+                <p class="jfpui_info_uitext3">・日本において外国人観光客が日本人に質問した際、日本人が質問に答えられないという問題を解決する</p>
+                <p class="jfpui_info_uitext4"></p>
+            </div>
+        </div>
+    
+        <div class="jfpui2">
+            <img class="jfpui2_imgui" src="img20191113_JFP7.png" alt="">
+            <div class="jfpui2_info">
+                <p class="jfpui2_info_uitext">定型文の追加</p>
+                <p class="jfpui2_info_uitext2"></p>
+    
+            </div>
+            
+        </div>
+
+        <div class="jfpui3">
+            <img class="jfpui3_imgui" src="img20191113_JFP4.png" alt="">
+            <div class="jfpui3_info">
+                <p class="jfpui3_info_uitext">アプリインストール時に多くの定型文を提供</p>
+                <p class="jfpui3_info_uitext2"></p>
+        
+            </div>
+        
+        </div>
+
+        <div class="jfpui4">
+            <img class="jfpui4_imgui" src="img20191113_JFP6.png" alt="">
+            <div class="jfpui4_info">
+                <p class="jfpui4_info_uitext">登録したまたは既に入っている定型文を選択し、日本人と気軽にコミュニケーション</p>
+                <p class="jfpui4_info_uitext2"></p>
+        
+            </div>
+        
+        </div>
+
+        <div class="jfpui5">
+            <img class="jfpui5_imgui" src="img20191113_JFP2.png" alt="">
+            <div class="jfpui5_info">
+                <p class="jfpui5_info_uitext"></p>
+                <p class="jfpui5info_uitext2">定型文を日本人に見せた後、描画機能<br />によって日本人に気軽に返答をもらえる</p>
+        
+            </div>
+        
+        </div>
+        <h1 class="jfptext2">サービスの流れ</h1>
+        <div class="jfpui6">
+            <!-- <img class="jfpui_imgui" src="TYPE4.png" alt=""> -->
+            <div class="jfpui6_info">
+                <p class="jfpui6_info_uitext">1.デフォルト定型文から使用する文を探す</p>
+                <p class="jfpui6_info_uitext2">
+                    2.検索機能を用いて定型文を探す</p>
+                <p class="jfpui6_info_uitext3">3.見つからないまたは新しい文を登録<br />したい場合はユーザが追加機能を用いる</p>
+                <p class="jfpui6_info_uitext4">4.文を選択し日本人に見せる</p>
+                <p class="jfpui6_info_uitext5">5.簡単に回答が得られない場合は描画<br />機能を用いてもらい解決する</p>
+            </div>
+        </div>
+        <p class="credit">© 2019 by HARUNA ICHIKAWA.</p>
+    </article>
+    </body>
+    <script>
+        function toggleNav() {
+            var body = document.body;
+            var hamburger = document.getElementById('js-hamburger');
+            var blackBg = document.getElementById('js-black-bg');
+
+            hamburger.addEventListener('click', function () {
+                body.classList.toggle('nav-open');
+            });
+            blackBg.addEventListener('click', function () {
+                body.classList.remove('nav-open');
+            });
+        }
+        toggleNav();
+    </script>
+    
+    </html>
