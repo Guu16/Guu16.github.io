@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,67 @@
     <link rel="stylesheet" href="3d1.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <ul>
-            <li><a class="link_text" href="index.html">HOME</a></li>
-            <li><a class="link_text" href="works.html">WORKS</a></li>
-            <li><a class="link_text" href="about.html">ABOUT</a></li>
-            <li><a class="link_text" href="contact.html">CONTACT</a></li>
-        </ul>
-    </header>
-    <h1 class="toptitle">3D</h1>
-    <div class="threed">
-        <div class="threed_img">
-            <img class="threed_img_contents1" src="img20190125_gunma.png" alt="">
-        </div>
-        <div class="threed_texts">
-            <p class="threed_texts_text1">お題：群馬<br />群馬のゆるキャラころとんをモチーフ</p>
-            <p class="threed_texts_text2">使用ソフト：CINEMA4D</p>
-            <p class="threed_texts_text3">作成時間：1時間</p>
-            <p class="threed_texts_text4">作成日：2019/1/25</p>
-        </div>
-    </div>
+        <nav class="global-nav">
+            <ul class="global-nav__list">
+                <li class="global-nav__item"><a href="index.html">HOME</a></li>
+                <li class="global-nav__item"><a href="works.html">WORKS</a></li>
+                <li class="global-nav__item"><a href="about.html">ABOUT</a></li>
+                <li class="global-nav__item"><a href="contact.html">CONTACT</a></li>
 
-    <div class="threed">
-        <div class="threed_img">
-            <img class="threed_img_contents1" src="img_3d.png" alt="">
+            </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
         </div>
-        <div class="threed_texts">
-            <p class="threed_texts_text1">年賀状デザイン</p>
-            <p class="threed_texts_text2">使用ソフト：CINEMA4D,After Effects</p>
-            <p class="threed_texts_text3">作成時間：2時間</p>
-            <p class="threed_texts_text4">作成日：2018/12/28</p>
+        <div class="black-bg" id="js-black-bg"></div>
+    </header>
+    <article>
+        <h1 class="toptitle">3D</h1>
+        <div class="threed">
+            <div class="threed_img">
+                <img class="threed_img_contents1" src="img20190125_gunma.png" alt="">
+            </div>
+            <div class="threed_texts">
+                <p class="threed_texts_text1">お題：群馬<br />群馬のゆるキャラころとんをモチーフ</p>
+                <p class="threed_texts_text2">使用ソフト：CINEMA4D</p>
+                <p class="threed_texts_text3">作成時間：1時間</p>
+                <p class="threed_texts_text4">作成日：2019/1/25</p>
+            </div>
         </div>
-    </div>
+
+        <div class="threed">
+            <div class="threed_img">
+                <img class="threed_img_contents1" src="img_3d.png" alt="">
+            </div>
+            <div class="threed_texts">
+                <p class="threed_texts_text1">年賀状デザイン</p>
+                <p class="threed_texts_text2">使用ソフト：CINEMA4D,After Effects</p>
+                <p class="threed_texts_text3">作成時間：2時間</p>
+                <p class="threed_texts_text4">作成日：2018/12/28</p>
+            </div>
+        </div>
+        <p class="credit">© 2019 by HARUNA ICHIKAWA.</p>
+    </article>
 </body>
+<script>
+    function toggleNav() {
+        var body = document.body;
+        var hamburger = document.getElementById('js-hamburger');
+        var blackBg = document.getElementById('js-black-bg');
+
+        hamburger.addEventListener('click', function () {
+            body.classList.toggle('nav-open');
+        });
+        blackBg.addEventListener('click', function () {
+            body.classList.remove('nav-open');
+        });
+    }
+    toggleNav();
+</script>
+
 </html>
