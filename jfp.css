@@ -1,0 +1,716 @@
+@media (max-width: 768px) {
+  .jfpimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 710px;
+    margin: 50px auto;
+  }
+  .jfpimg_topimg {
+    width: 100%;
+    height: auto;
+  }
+  .jfpinfo {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 60px;
+    text-align: center;
+  }
+  .jfpinfo_text1 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpui {
+    padding-top: 100px;
+    max-width: 710px;
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .jfpui_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui_info_uitext {
+    font-weight: 600px;
+  }
+  .jfpui_info_uitext2 {
+    text-align: left;
+  }
+  .jfpui_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui_info_uitext5 {
+    text-align: left;
+  }
+  .jfpui2 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 20px;
+    display: flex;
+  }
+  .jfpui2_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui2_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui3 {
+    padding-top: 200px;
+    max-width: 710px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .jfpui3_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui3_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui4 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 20px;
+    display: flex;
+  }
+  .jfpui4_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui4_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui5 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 20px;
+    display: flex;
+  }
+  .jfpui5_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui5_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui5_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui5_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui5_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfptext {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .jfptext2 {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .jfpui6 {
+    padding-top: 50px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .jfpui6_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui6_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui6_info_uitext2 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext5 {
+    text-align: left;
+  }
+}
+
+@media (max-width: 375px) {
+  .jfpimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 375px;
+    margin: 50px 0;
+  }
+  .jfpimg_topimg {
+    width: 100%;
+    height: 100%;
+  }
+  .jfpinfo {
+    text-align: center;
+    max-width: 375px;
+    margin: 0 20px;
+  }
+  .jfpinfo_text1 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfptext {
+    text-align: center;
+  }
+  .jfpui {
+    padding-top: 50px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .jfpui_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+    padding-bottom: 50px;
+  }
+  .jfpui_info {
+    position: relative;
+  }
+  .jfpui_info_uitext {
+    text-align: left;
+    font-weight: 600px;
+  }
+  .jfpui_info_uitext2 {
+    text-align: left;
+  }
+  .jfpui_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui2 {
+    padding-top: 100px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .jfpui2_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+    padding: 50px;
+  }
+  .jfpui2_info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+  .jfpui2_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext2 {
+    max-width: 375px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui2_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui3 {
+    padding-top: 100px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .jfpui3_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+    padding: 50px;
+  }
+  .jfpui3_info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+  .jfpui3_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext2 {
+    max-width: 375px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui3_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui4 {
+    padding-top: 100px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .jfpui4_imgui {
+    width: 100%;
+    height: 25%;
+    padding-right: 0;
+    padding: 50px;
+  }
+  .jfpui4_info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+  .jfpui4_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext2 {
+    max-width: 375px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui4_info_uitext4 {
+    text-align: left;
+  }
+  .jfptext2 {
+    text-align: center;
+  }
+  .jfpui5 {
+    padding-top: 100px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .jfpui5_imgui {
+    width: 100%;
+    height: 25%;
+    padding-right: 0;
+    padding: 50px;
+  }
+  .jfpui5_info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+  .jfpui5_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui5_info_uitext2 {
+    max-width: 375px;
+    text-align: left;
+  }
+  .jfpui5_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui5_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui6 {
+    padding-top: 50px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .jfpui6_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+    padding: 50px;
+  }
+  .jfpui6_info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+  .jfpui6_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui6_info_uitext2 {
+    max-width: 375px;
+    text-align: left;
+  }
+  .jfpui6_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext5 {
+    text-align: left;
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 768px) {
+  .jfpimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 768px;
+    margin: 50px auto;
+  }
+  .jfpimg_topimg {
+    width: 100%;
+    height: 100%;
+  }
+  .jfpinfo {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+  }
+  .jfpinfo_text1 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfptext {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .jfpui {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .jfpui_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui_info_uitext {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpui_info_uitext2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpui_info_uitext3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpui_info_uitext4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .jfpui2 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .jfpui2_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui2_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext5 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui2_info_uitext6 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui3 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .jfpui3_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui3_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui3_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui4 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .jfpui4_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui4_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui4_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .jfpui5 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .jfpui5_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+    margin-right: 65px;
+  }
+  .jfpui5_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui5_info_uitext2 {
+    text-align: left;
+  }
+  .jfpui5_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfpui5_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .jfptext2 {
+    text-align: center;
+    padding-top: 200px;
+  }
+  .jfpui6 {
+    padding-top: 50px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .jfpui6_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .jfpui6_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .jfpui6_info_uitext2 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext3 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext4 {
+    text-align: left;
+  }
+  .jfpui6_info_uitext5 {
+    text-align: left;
+  }
+}
