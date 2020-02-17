@@ -12,61 +12,91 @@
 
 <body>
     <header>
-        <ul>
-            <li><a class="link_text" href="index.html">HOME</a></li>
-            <li><a class="link_text" href="works.html">WORKS</a></li>
-            <li><a class="link_text" href="about.html">ABOUT</a></li>
-            <li><a class="link_text" href="contact.html">CONTACT</a></li>
-        </ul>
-    </header>
-    <h1 class="toptitle">INIADsite</h1>
-    <div class="iniadimg">
-        <img class="iniadimg_topimg" src="img_iniad.png" alt="">
-    </div>
-    <div class="iniadinfo">
-        <p class="iniadinfo_text1">もう一つのWebサイト</p>
-        <p class="iniadinfo_text2">作成時期 : 2019年05月</p>
-        <p class="iniadinfo_text3">作成期間 : 企画から実装含め1週間</p>
-        <p class="iniadinfo_text4">使用言語 : HTML5, CSS, JavaScript</p>
-        <p class="iniadinfo_text5">ターゲット : 普段からパソコンを使用している優秀な学生, 英語が使える日本人学生や留学生</p>
-        <p class="iniadinfo_text6">コンセプト : シンプルかつ色味を抑えたもの</p>
-    </div>
+        <nav class="global-nav">
+            <ul class="global-nav__list">
+                <li class="global-nav__item"><a href="index.html">HOME</a></li>
+                <li class="global-nav__item"><a href="works.html">WORKS</a></li>
+                <li class="global-nav__item"><a href="about.html">ABOUT</a></li>
+                <li class="global-nav__item"><a href="contact.html">CONTACT</a></li>
 
-    <div class="iniadui">
-        <img class="iniadui_imgui" src="img20190731_iniad.jpg" alt="">
-        <div class="iniadui_info">
-            <p class="iniadui_info_uitext">参考サイトをもとにトップページを作成。マウスオーバー時に色を変更し、色は大学カラーを連想する色、さらに誰が見ても好感を持てるように幅広い年代から好まれている青系の色を使用。</p>
-            <!-- <p class="iniadui_info_uitext2">
+            </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+        <div class="black-bg" id="js-black-bg"></div>
+    </header>
+    <article>
+        <h1 class="toptitle">INIADsite</h1>
+        <div class="iniadimg">
+            <img class="iniadimg_topimg" src="img_iniad.png" alt="">
+        </div>
+        <div class="iniadinfo">
+            <p class="iniadinfo_text1">もう一つのWebサイト</p>
+            <p class="iniadinfo_text2">作成時期 : 2019年05月</p>
+            <p class="iniadinfo_text3">作成期間 : 企画から実装含め1週間</p>
+            <p class="iniadinfo_text4">使用言語 : HTML5, CSS, JavaScript</p>
+            <p class="iniadinfo_text5">ターゲット : 普段からパソコンを使用している優秀な学生, 英語が使える日本人学生や留学生</p>
+            <p class="iniadinfo_text6">コンセプト : シンプルかつ色味を抑えたもの</p>
+        </div>
+
+        <div class="iniadui">
+            <img class="iniadui_imgui" src="img20190731_iniad.jpg" alt="">
+            <div class="iniadui_info">
+                <p class="iniadui_info_uitext">
+                    参考サイトをもとにトップページを作成。マウスオーバー時に色を変更し、色は大学カラーを連想する色、さらに誰が見ても好感を持てるように幅広い年代から好まれている青系の色を使用。</p>
+                <!-- <p class="iniadui_info_uitext2">
                 このブランドが作る服が好きだけど、<br>似た系統のブランドってないのだろうか。どうやって探したらいいのかわからない。そんなことを感じたことはないでしょうか。</p>
             <p class="iniadui_info_uitext3">そんな疑問を解決できるのが、投稿型のお店共有アプリケーション、「TYPE」。</p>
             <p class="iniadui_info_uitext4">好きな服の系統や色をタグとして登録し、設定を行うことで簡単に見たい自分好みの服だけを見ることができ、自分好みの知識を広げることができます。</p> -->
+            </div>
         </div>
-    </div>
 
-    <div class="iniadui2">
-        <div class="iniadui2_info">
-            <p class="iniadui2_info_uitext">外観・施設のページは人物が写っていない写真を利用するために既存サイト等から写真を引用。<br />また写真をクリック時に写真が拡大するように作成。トップページ以外のデザインは主に要素を斜めにした背景で統一。</p>
-            <!-- <p class="iniadui2_info_uitext2">気になった投稿をお気に入りすることで、いつでも閲覧することができます。</p> -->
-            <!-- <p class="typeui2_info_uitext3">そんな疑問を解決できるのが、投稿型のお店共有アプリケーション、「TYPE」。</p>
+        <div class="iniadui2">
+            <div class="iniadui2_info">
+                <p class="iniadui2_info_uitext">
+                    外観・施設のページは人物が写っていない写真を利用するために既存サイト等から写真を引用。<br />また写真をクリック時に写真が拡大するように作成。トップページ以外のデザインは主に要素を斜めにした背景で統一。
+                </p>
+                <!-- <p class="iniadui2_info_uitext2">気になった投稿をお気に入りすることで、いつでも閲覧することができます。</p> -->
+                <!-- <p class="typeui2_info_uitext3">そんな疑問を解決できるのが、投稿型のお店共有アプリケーション、「TYPE」。</p>
             <p class="typeui2_info_uitext4">好きな服の系統や色をタグとして登録し、設定を行うことで簡単に見たい自分好みの服だけを見ることができ、自分好みの知識を広げることができます。</p> -->
+            </div>
+            <div class="iniadui2_imgui">
+                <img class="iniadui2_imgui_content" src="img_iniadsite2.png" alt="">
+                <img class="iniadui2_imgui_content" src="img_iniadsite3.png" alt="">
+            </div>
         </div>
-        <div class="iniadui2_imgui">
-        <img class="iniadui2_imgui_content" src="img_iniadsite2.png" alt="">
-        <img class="iniadui2_imgui_content" src="img_iniadsite3.png" alt="">
-        </div>
-    </div>
 
 
-    <h1 class="imgtext">主要な画面</h1>
-    <div class="imgmain">
-        
-        <img src="img_iniadsite1.png" alt="" class="imgmain_material">
-        <img src="img_iniadsite2.png" alt="" class="imgmain_material">
-        <img src="img_iniadsite3.png" alt="" class="imgmain_material">
-        <img src="img_iniadsite4.png" alt="" class="imgmain_material">
-        <img src="img_iniadsite5.png" alt="" class="imgmain_material">
-        <img src="img_iniadsite6.png" alt="" class="imgmain_material">
-    </div>
+        <h1 class="imgtext">主要な画面</h1>
+        <div class="imgmain">
+
+            <img src="img_iniadsite1.png" alt="" class="imgmain_material">
+            <img src="img_iniadsite2.png" alt="" class="imgmain_material">
+            <img src="img_iniadsite3.png" alt="" class="imgmain_material">
+            <img src="img_iniadsite4.png" alt="" class="imgmain_material">
+            <img src="img_iniadsite5.png" alt="" class="imgmain_material">
+            <img src="img_iniadsite6.png" alt="" class="imgmain_material">
+        </div>
+        <p class="credit">© 2019 by HARUNA ICHIKAWA.</p>
+    </article>
 </body>
+<script>
+    function toggleNav() {
+        var body = document.body;
+        var hamburger = document.getElementById('js-hamburger');
+        var blackBg = document.getElementById('js-black-bg');
+
+        hamburger.addEventListener('click', function () {
+            body.classList.toggle('nav-open');
+        });
+        blackBg.addEventListener('click', function () {
+            body.classList.remove('nav-open');
+        });
+    }
+    toggleNav();
+</script>
 
 </html>
