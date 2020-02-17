@@ -12,17 +12,43 @@
 
 <body>
     <header>
-        <ul>
-            <li><a class="link_text" href="index.html">HOME</a></li>
-            <li><a class="link_text" href="works.html">WORKS</a></li>
-            <li><a class="link_text" href="about.html">ABOUT</a></li>
-            <li><a class="link_text" href="contact.html">CONTACT</a></li>
-        </ul>
-    </header>
-    <h1 class="toptitle">CONTACT</h1>
+        <nav class="global-nav">
+            <ul class="global-nav__list">
+                <li class="global-nav__item"><a href="index.html">HOME</a></li>
+                <li class="global-nav__item"><a href="works.html">WORKS</a></li>
+                <li class="global-nav__item"><a href="about.html">ABOUT</a></li>
+                <li class="global-nav__item"><a href="contact.html">CONTACT</a></li>
 
-    <p class="contacttext">ご依頼/お問い合わせなどございましたら下記よりお願いいたします。<br />Mail:guufocus@gmail.com</p>
-    
+            </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+        <div class="black-bg" id="js-black-bg"></div>
+    </header>
+    <article>
+        <h1 class="toptitle">CONTACT</h1>
+
+        <p class="contacttext">ご依頼/お問い合わせなどございましたら下記よりお願いいたします。<br />Mail:guufocus@gmail.com</p>
+        <p class="credit">© 2019 by HARUNA ICHIKAWA.</p>
+    </article>
 </body>
+<script>
+    function toggleNav() {
+        var body = document.body;
+        var hamburger = document.getElementById('js-hamburger');
+        var blackBg = document.getElementById('js-black-bg');
+
+        hamburger.addEventListener('click', function () {
+            body.classList.toggle('nav-open');
+        });
+        blackBg.addEventListener('click', function () {
+            body.classList.remove('nav-open');
+        });
+    }
+    toggleNav();
+</script>
 
 </html>
