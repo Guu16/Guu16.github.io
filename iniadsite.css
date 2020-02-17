@@ -1,146 +1,380 @@
-.iniadimg {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  max-width: 710px;
-  margin: 50px auto;
+@media (max-width: 768px) {
+  .iniadimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 710px;
+    margin: 50px auto;
+  }
+  .iniadimg_topimg {
+    width: 100%;
+    height: auto;
+  }
+  .iniadinfo {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+  .iniadinfo_text1 {
+    text-align: left;
+    margin: 0px auto;
+  }
+  .iniadinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadui {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .iniadui_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .iniadui_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+  }
+  .iniadui_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .iniadui_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .iniadui_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .iniadui2 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .iniadui2_imgui {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+  }
+  .iniadui2_imgui_content {
+    width: 100%;
+    height: 100%;
+  }
+  .iniadui2_info_uitext {
+    margin-right: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .iniadui2_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .iniadui2_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .iniadui2_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .imgtext {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .imgmain {
+    padding-top: 50px;
+    max-width: 710px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 50px;
+  }
+  .imgmain_material {
+    width: 50%;
+    height: 50%;
+  }
 }
 
-.iniadimg_topimg {
-  width: 100%;
-  height: auto;
+@media (min-width: 768px) {
+  .iniadimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 710px;
+    margin: 50px auto;
+  }
+  .iniadimg_topimg {
+    width: 100%;
+    height: auto;
+  }
+  .iniadinfo {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+  .iniadinfo_text1 {
+    text-align: left;
+    margin: 0px auto;
+  }
+  .iniadinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadui {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .iniadui_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .iniadui_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+  }
+  .iniadui_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .iniadui_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .iniadui_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .iniadui2 {
+    padding-top: 200px;
+    max-width: 710px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  .iniadui2_imgui {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+  }
+  .iniadui2_imgui_content {
+    width: 100%;
+    height: 100%;
+  }
+  .iniadui2_info_uitext {
+    margin-right: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .iniadui2_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .iniadui2_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .iniadui2_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .imgtext {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .imgmain {
+    padding-top: 50px;
+    max-width: 710px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 50px;
+  }
+  .imgmain_material {
+    width: 50%;
+    height: 50%;
+  }
 }
 
-.iniadinfo {
-  text-align: center;
-  max-width: 710px;
-  margin: 0 auto;
-  padding-top: 70px;
-}
-
-.iniadinfo_text1 {
-  text-align: left;
-  margin: 0px auto;
-}
-
-.iniadinfo_text2 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.iniadinfo_text3 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.iniadinfo_text4 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.iniadinfo_text5 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.iniadinfo_text6 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.iniadui {
-  padding-top: 100px;
-  max-width: 710px;
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-}
-
-.iniadui_imgui {
-  width: 50%;
-  height: 25%;
-  padding-right: 0;
-}
-
-.iniadui_info_uitext {
-  margin-left: 65px;
-  font-weight: 600px;
-}
-
-.iniadui_info_uitext2 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.iniadui_info_uitext3 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.iniadui_info_uitext4 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.iniadui2 {
-  padding-top: 200px;
-  max-width: 710px;
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-}
-
-.iniadui2_imgui {
-  width: 100%;
-  height: 50%;
-  padding-right: 0;
-}
-
-.iniadui2_imgui_content {
-  width: 100%;
-  height: 100%;
-}
-
-.iniadui2_info_uitext {
-  margin-right: 65px;
-  font-weight: 600px;
-  text-align: left;
-}
-
-.iniadui2_info_uitext2 {
-  margin-right: 65px;
-  text-align: left;
-}
-
-.iniadui2_info_uitext3 {
-  margin-right: 65px;
-  text-align: left;
-}
-
-.iniadui2_info_uitext4 {
-  margin-right: 65px;
-  text-align: left;
-}
-
-.imgtext {
-  text-align: center;
-  padding-top: 100px;
-}
-
-.imgmain {
-  padding-top: 50px;
-  max-width: 710px;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 50%;
-  height: 50%;
-  padding-bottom: 50px;
-}
-
-.imgmain_material {
-  width: 50%;
-  height: 50%;
+@media (max-width: 375px) {
+  .iniadimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .iniadimg_topimg {
+    width: 100%;
+    height: auto;
+  }
+  .iniadinfo {
+    text-align: center;
+    max-width: 375px;
+    margin: 0 20px;
+    padding-top: 70px;
+  }
+  .iniadinfo_text1 {
+    text-align: left;
+    margin: 0px auto;
+  }
+  .iniadinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .iniadui {
+    padding-top: 100px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .iniadui_imgui {
+    width: 100%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .iniadui_info {
+    padding-top: 50px;
+    position: relative;
+    left: -20px;
+    text-align: center;
+  }
+  .iniadui_info_uitext {
+    text-align: left;
+    font-weight: 600px;
+  }
+  .iniadui_info_uitext2 {
+    text-align: left;
+  }
+  .iniadui_info_uitext3 {
+    text-align: left;
+  }
+  .iniadui_info_uitext4 {
+    text-align: left;
+  }
+  .iniadui2 {
+    padding-top: 200px;
+    max-width: 375px;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iniadui2_imgui {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+  }
+  .iniadui2_imgui_content {
+    width: 100%;
+    height: 100%;
+  }
+  .iniadui2_info {
+    text-align: center;
+    position: relative;
+    left: 45px;
+    padding-bottom: 50px;
+  }
+  .iniadui2_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .iniadui2_info_uitext2 {
+    text-align: left;
+  }
+  .iniadui2_info_uitext3 {
+    text-align: left;
+  }
+  .iniadui2_info_uitext4 {
+    text-align: left;
+  }
+  .imgtext {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .imgmain {
+    padding-top: 50px;
+    max-width: 375px;
+    margin: 0 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 50%;
+    padding-bottom: 50px;
+  }
+  .imgmain_material {
+    width: 50%;
+    height: 50%;
+  }
 }
