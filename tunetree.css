@@ -1,273 +1,721 @@
-.treeimg {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  max-width: 710px;
-  margin: 50px auto;
+@media (max-width: 375px) {
+  .treeimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 375px;
+    margin: 30px auto;
+  }
+  .treeimg_topimg {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+  .treeuiinfo {
+    margin: 0 20px;
+    font-size: 20px;
+  }
+  .treeinfo {
+    text-align: center;
+    max-width: 375px;
+  }
+  .treeinfo_text1 {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .treeinfo_text2 {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .treeinfo_text3 {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .treeinfo_text4 {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .treeinfo_text5 {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .treeinfo_text6 {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .treeui {
+    padding-top: 100px;
+    max-width: 375px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .treeui_imgui {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+    margin: 0 20px;
+    padding-bottom: 50px;
+  }
+  .treeui_info_uitext {
+    font-weight: 600px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+  .treeui_info_uitext2 {
+    margin: 0 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .treeui_info_uitext3 {
+    margin: 0 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .treeui_info_uitext4 {
+    margin: 0 20px;
+    text-align: left;
+  }
+  .treetext {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .treeui2 {
+    max-width: 375px;
+    text-align: left;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .treeui2_imgui {
+    width: 100%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui2_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+    margin: 0 20px;
+  }
+  .treeui2_info_uitext2 {
+    text-align: left;
+    margin: 0 20px;
+  }
+  .treeui2_info_uitext3 {
+    text-align: left;
+    margin: 0 20px;
+  }
+  .treeui2_info_uitext4 {
+    text-align: left;
+    margin: 0 20px;
+  }
+  .treeui3 {
+    padding-top: 50px;
+    max-width: 375px;
+    text-align: left;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .treeui3_imgui {
+    width: 100%;
+    height: 25%;
+    padding-right: 0;
+    margin-left: 20px;
+  }
+  .treeui3_info {
+    margin-top: 50px;
+  }
+  .treeui3_info_uitext {
+    margin-right: 10px;
+    font-weight: 600px;
+    text-align: left;
+    max-width: 100px;
+  }
+  .treeui3_info_uitext2 {
+    text-align: left;
+  }
+  .treeui3_info_uitext3 {
+    text-align: left;
+  }
+  .treeui3_info_uitext4 {
+    text-align: left;
+  }
+  .treeimg {
+    padding-top: 50px;
+    max-width: 710px;
+    margin: 0 auto;
+    width: 100%;
+    height: 25%;
+  }
+  .treeimgtext {
+    max-width: 710px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 100px;
+  }
+  .treeuitext {
+    text-align: center;
+  }
+  .treeui4 {
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 100px;
+  }
+  .treeui4_imgui {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+  }
+  .treeui4_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui4_info_uitext2 {
+    text-align: left;
+  }
+  .treeui4_info_uitext3 {
+    text-align: left;
+  }
+  .treeui4_info_uitext4 {
+    text-align: left;
+  }
+  .treeui5 {
+    padding-top: 100px;
+    max-width: 375px;
+    text-align: left;
+    margin: 0 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .treeui5_imgui {
+    width: 100%;
+    height: 25%;
+    padding-right: 20px;
+  }
+  .treeui5_info {
+    margin-left: 60px;
+    margin-bottom: 50px;
+  }
+  .treeui5_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui5_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui5_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui5_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui6 {
+    padding-top: 100px;
+    max-width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .treeui6_imgui {
+    width: 100%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui6_info {
+    margin-left: 0px;
+  }
+  .treeui6_info_uitext {
+    margin-left: 25px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui6_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui6_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui6_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeuiinfo {
+    text-align: center;
+    padding-top: 50px;
+  }
 }
 
-.treeimg_topimg {
-  width: 100%;
-  height: auto;
+@media (max-width: 768px) {
+  .treeimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 710px;
+    margin: 50px auto;
+  }
+  .treeimg_topimg {
+    width: 100%;
+    height: auto;
+  }
+  .treeinfo {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+  }
+  .treeinfo_text1 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeui {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui_imgui {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+  }
+  .treeui_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+  }
+  .treeui_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treetext {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .treeui2 {
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui2_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui2_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui2_info_uitext2 {
+    text-align: left;
+  }
+  .treeui2_info_uitext3 {
+    text-align: left;
+  }
+  .treeui2_info_uitext4 {
+    text-align: left;
+  }
+  .treeui3 {
+    padding-top: 50px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui3_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui3_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui3_info_uitext2 {
+    text-align: left;
+  }
+  .treeui3_info_uitext3 {
+    text-align: left;
+  }
+  .treeui3_info_uitext4 {
+    text-align: left;
+  }
+  .treeimg {
+    padding-top: 50px;
+    max-width: 710px;
+    margin: 0 auto;
+    width: 100%;
+    height: 25%;
+  }
+  .treeimgtext {
+    max-width: 710px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 100px;
+  }
+  .treeuitext {
+    text-align: center;
+  }
+  .treeui4 {
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 100px;
+  }
+  .treeui4_imgui {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+  }
+  .treeui4_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui4_info_uitext2 {
+    text-align: left;
+  }
+  .treeui4_info_uitext3 {
+    text-align: left;
+  }
+  .treeui4_info_uitext4 {
+    text-align: left;
+  }
+  .treeui5 {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui5_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui5_info_uitext {
+    margin-right: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui5_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui5_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui5_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui6 {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui6_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui6_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui6_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui6_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui6_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeuiinfo {
+    text-align: center;
+    padding-top: 50px;
+  }
 }
 
-.treeinfo {
-  text-align: center;
-  max-width: 710px;
-  margin: 0 auto;
-}
-
-.treeinfo_text1 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.treeinfo_text2 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.treeinfo_text3 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.treeinfo_text4 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.treeinfo_text5 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.treeinfo_text6 {
-  text-align: left;
-  margin: 20px auto;
-}
-
-.treeui {
-  padding-top: 100px;
-  max-width: 710px;
-  text-align: left;
-  margin: 0 auto;
-  display: flex;
-}
-
-.treeui_imgui {
-  width: 100%;
-  height: 50%;
-  padding-right: 0;
-}
-
-.treeui_info_uitext {
-  margin-left: 65px;
-  font-weight: 600px;
-}
-
-.treeui_info_uitext2 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.treeui_info_uitext3 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.treeui_info_uitext4 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.treetext {
-  padding-top: 50px;
-  text-align: center;
-}
-
-.treeui2 {
-  max-width: 710px;
-  text-align: left;
-  margin: 0 auto;
-  display: flex;
-}
-
-.treeui2_imgui {
-  width: 50%;
-  height: 25%;
-  padding-right: 0;
-}
-
-.treeui2_info_uitext {
-  font-weight: 600px;
-  text-align: left;
-}
-
-.treeui2_info_uitext2 {
-  text-align: left;
-}
-
-.treeui2_info_uitext3 {
-  text-align: left;
-}
-
-.treeui2_info_uitext4 {
-  text-align: left;
-}
-
-.treeui3 {
-  padding-top: 50px;
-  max-width: 710px;
-  text-align: left;
-  margin: 0 auto;
-  display: flex;
-}
-
-.treeui3_imgui {
-  width: 50%;
-  height: 25%;
-  padding-right: 0;
-}
-
-.treeui3_info_uitext {
-  font-weight: 600px;
-  text-align: left;
-}
-
-.treeui3_info_uitext2 {
-  text-align: left;
-}
-
-.treeui3_info_uitext3 {
-  text-align: left;
-}
-
-.treeui3_info_uitext4 {
-  text-align: left;
-}
-
-.treeimg {
-  padding-top: 50px;
-  max-width: 710px;
-  margin: 0 auto;
-  width: 100%;
-  height: 25%;
-}
-
-.treeimgtext {
-  max-width: 710px;
-  margin: 0 auto;
-  text-align: left;
-  padding-bottom: 100px;
-}
-
-.treeuitext {
-  text-align: center;
-}
-
-.treeui4 {
-  max-width: 710px;
-  text-align: left;
-  margin: 0 auto;
-  display: flex;
-  padding-bottom: 100px;
-}
-
-.treeui4_imgui {
-  width: 100%;
-  height: 100%;
-  padding-right: 0;
-}
-
-.treeui4_info_uitext {
-  font-weight: 600px;
-  text-align: left;
-}
-
-.treeui4_info_uitext2 {
-  text-align: left;
-}
-
-.treeui4_info_uitext3 {
-  text-align: left;
-}
-
-.treeui4_info_uitext4 {
-  text-align: left;
-}
-
-.treeui5 {
-  padding-top: 100px;
-  max-width: 710px;
-  text-align: left;
-  margin: 0 auto;
-  display: flex;
-}
-
-.treeui5_imgui {
-  width: 50%;
-  height: 25%;
-  padding-right: 0;
-}
-
-.treeui5_info_uitext {
-  margin-right: 65px;
-  font-weight: 600px;
-  text-align: left;
-}
-
-.treeui5_info_uitext2 {
-  margin-right: 65px;
-  text-align: left;
-}
-
-.treeui5_info_uitext3 {
-  margin-right: 65px;
-  text-align: left;
-}
-
-.treeui5_info_uitext4 {
-  margin-right: 65px;
-  text-align: left;
-}
-
-.treeui6 {
-  padding-top: 100px;
-  max-width: 710px;
-  text-align: left;
-  margin: 0 auto;
-  display: flex;
-}
-
-.treeui6_imgui {
-  width: 50%;
-  height: 25%;
-  padding-right: 0;
-}
-
-.treeui6_info_uitext {
-  margin-left: 65px;
-  font-weight: 600px;
-  text-align: left;
-}
-
-.treeui6_info_uitext2 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.treeui6_info_uitext3 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.treeui6_info_uitext4 {
-  margin-left: 65px;
-  text-align: left;
-}
-
-.treeuiinfo {
-  text-align: center;
-  padding-top: 50px;
+@media (min-width: 768px) {
+  .treeimg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 710px;
+    margin: 50px auto;
+  }
+  .treeimg_topimg {
+    width: 100%;
+    height: auto;
+  }
+  .treeinfo {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+  }
+  .treeinfo_text1 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text2 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text3 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text4 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text5 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeinfo_text6 {
+    text-align: left;
+    margin: 20px auto;
+  }
+  .treeui {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui_imgui {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+  }
+  .treeui_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+  }
+  .treeui_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treetext {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .treeui2 {
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui2_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui2_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui2_info_uitext2 {
+    text-align: left;
+  }
+  .treeui2_info_uitext3 {
+    text-align: left;
+  }
+  .treeui2_info_uitext4 {
+    text-align: left;
+  }
+  .treeui3 {
+    padding-top: 50px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui3_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui3_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui3_info_uitext2 {
+    text-align: left;
+  }
+  .treeui3_info_uitext3 {
+    text-align: left;
+  }
+  .treeui3_info_uitext4 {
+    text-align: left;
+  }
+  .treeimg {
+    padding-top: 50px;
+    max-width: 710px;
+    margin: 0 auto;
+    width: 100%;
+    height: 25%;
+  }
+  .treeimgtext {
+    max-width: 710px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 100px;
+  }
+  .treeuitext {
+    text-align: center;
+  }
+  .treeui4 {
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 100px;
+  }
+  .treeui4_imgui {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+  }
+  .treeui4_info_uitext {
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui4_info_uitext2 {
+    text-align: left;
+  }
+  .treeui4_info_uitext3 {
+    text-align: left;
+  }
+  .treeui4_info_uitext4 {
+    text-align: left;
+  }
+  .treeui5 {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui5_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui5_info_uitext {
+    margin-right: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui5_info_uitext2 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui5_info_uitext3 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui5_info_uitext4 {
+    margin-right: 65px;
+    text-align: left;
+  }
+  .treeui6 {
+    padding-top: 100px;
+    max-width: 710px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+  }
+  .treeui6_imgui {
+    width: 50%;
+    height: 25%;
+    padding-right: 0;
+  }
+  .treeui6_info_uitext {
+    margin-left: 65px;
+    font-weight: 600px;
+    text-align: left;
+  }
+  .treeui6_info_uitext2 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui6_info_uitext3 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeui6_info_uitext4 {
+    margin-left: 65px;
+    text-align: left;
+  }
+  .treeuiinfo {
+    text-align: center;
+    padding-top: 50px;
+  }
 }
