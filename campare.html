@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/tab_new.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="sitename">
+        <h1 class="title">CompAre</h1>
+    </div>
+    <div class="about">
+        <p class="about_title">このサイトについて</p>
+        <p class="about_text">web制作において使用されるボタンやメニューを集め、そのアニメーションやタイミングを比較することができます。<br>
+            デザインの参考や周りとのイメージ共有に役立ててください。</p>
+    </div>
+    <div class="tab_container">
+        <!-- <input id="tab1" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="tab1">scrool</label> -->
+
+        <input id="tab2" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="tab2">menu</label>
+        <input id="tab3" type="radio" name="tab_item">
+        <label class="tab_item" for="tab3">button</label>
+        <input id="tab4" type="radio" name="tab_item">
+        <label class="tab_item" for="tab4">carousel</label>
+        <input id="tab5" type="radio" name="tab_item">
+        <label class="tab_item" for="tab5">loading</label>
+
+        <div class="tab_content" id="tab2_content">
+            <div class="tab_content_description">
+                <p>ポップアップ内アニメーション比較：左から0.3s, 0.4s 0.5s</p>
+                <div class="style">
+
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn01">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm1">click</label>
+                            <input type="checkbox" id="modal-checkm1">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger-1_1" id="btn01">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-1_2" id="btn01">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-1_3" id="btn01">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm1">Close</label>
+                            </span>
+                        </div>
+
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn02">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm2">click</label>
+                            <input type="checkbox" id="modal-checkm2">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger-2_1" id="btn02">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-2_2" id="btn02">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-2_3" id="btn02">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm2">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn03">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm3">click</label>
+                            <input type="checkbox" id="modal-checkm3">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger-3_1" id="btn03">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-3_2" id="btn03">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-3_3" id="btn03">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm3">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn04">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm4">click</label>
+                            <input type="checkbox" id="modal-checkm4">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger-4_1" id="btn04">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-4_2" id="btn04">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-4_3" id="btn04">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm4">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn05">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm5">click</label>
+                            <input type="checkbox" id="modal-checkm5">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger05" id="btn05">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger06" id="btn05">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger07" id="btn05">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm5">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box1">
+                            <div class="btn1-trigger1" id="btn06">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+                            <label for="modal-checkm6">click</label>
+                            <input type="checkbox" id="modal-checkm6">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn1-trigger6_1" id="btn06">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn1-trigger6_2" id="btn06">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn1-trigger6_3" id="btn06">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm6">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box1">
+                            <div class="btn1-trigger1" id="btn07">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+                            <label for="modal-checkm7">click</label>
+                            <input type="checkbox" id="modal-checkm7">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn1-trigger7_1" id="btn06">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn1-trigger7_2" id="btn06">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn1-trigger7_3" id="btn06">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm7">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn08">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm8">click</label>
+                            <input type="checkbox" id="modal-checkm8">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger-8_1" id="btn08">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-8_2" id="btn08">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-8_3" id="btn08">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm8">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn09">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm9">click</label>
+                            <input type="checkbox" id="modal-checkm9">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger-9_1" id="btn09">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-9_2" id="btn09">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-9_3" id="btn09">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm9">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn10">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <label for="modal-checkm10">click</label>
+                            <input type="checkbox" id="modal-checkm10">
+                            <span class="modal">
+                                <div class="menuzip">
+                                    <div class="btn-trigger-10_1" id="btn10">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-10_2" id="btn10">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="btn-trigger-10_3" id="btn10">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <label for="modal-checkm10">Close</label>
+                            </span>
+                        </div>
+                    </section>
+                    <!-- <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn02">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="box">
+                            <div class="btn-trigger" id="btn02">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </section> -->
+                </div>
+            </div>
+        </div>
+        <div class="tab_content" id="tab3_content">
+            <p>ポップアップ内アニメーション比較：左から0.3s, 0.4s 0.5s</p>
+            <div class="tab_content_description">
+
+
+
+                <div class="background">
+                    <div class="back-box">
+                        <button class="button1">button</button>
+                        <label for="modal-check1">click</label>
+                        <input type="checkbox" id="modal-check1">
+                        <span class="modal">
+                            <div class="buttonzip">
+                                <button class="buttonzip_button1_one">button</button>
+                                <button class="buttonzip_button1_two">button</button>
+                                <button class="buttonzip_button1_three">button</button>
+                            </div>
+                            <label for="modal-check1">Close</label>
+                        </span>
+                    </div>
+
+
+
+                    <div class="back-box1">
+                        <button class="button2">button</button>
+                        <label for="modal-check2">click</label>
+                        <input type="checkbox" id="modal-check2">
+                        <span class="modal">
+                            <div class="buttonzip">
+                                <button class="buttonzip_button2_one">button</button>
+                                <button class="buttonzip_button2_two">button</button>
+                                <button class="buttonzip_button2_three">button</button>
+                            </div>
+                            <label for="modal-check2">Close</label>
+                        </span>
+                    </div>
+                    <div class="back-box2">
+                        <button class="button3">button</button>
+                        <label for="modal-check3">click</label>
+                        <input type="checkbox" id="modal-check3">
+                        <span class="modal">
+                            <div class="buttonzip">
+                                <button class="buttonzip_button3_one">button</button>
+                                <button class="buttonzip_button3_two">button</button>
+                                <button class="buttonzip_button3_three">button</button>
+                            </div>
+                            <label for="modal-check3">Close</label>
+                        </span>
+                    </div>
+                    <div class="back-box3">
+                        <button class="button4">button</button>
+                        <label for="modal-check4">click</label>
+                        <input type="checkbox" id="modal-check4">
+                        <span class="modal">
+                            <div class="buttonzip">
+                                <button class="buttonzip_button4_one">button</button>
+                                <button class="buttonzip_button4_two">button</button>
+                                <button class="buttonzip_button4_three">button</button>
+                            </div>
+                            <label for="modal-check4">Close</label>
+                        </span>
+                    </div>
+                    <div class="back-box4">
+                        <button class="button5">button</button>
+                        <label for="modal-check5">click</label>
+                        <input type="checkbox" id="modal-check5">
+                        <span class="modal">
+                            <div class="buttonzip">
+                                <button class="buttonzip_button5_one">button</button>
+                                <button class="buttonzip_button5_two">button</button>
+                                <button class="buttonzip_button5_three">button</button>
+                            </div>
+                            <label for="modal-check5">Close
+                            </label>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab_content" id="tab4_content">
+            <div class="tab_content_description">
+
+                <div class="carouselzip">
+                    <div class="back_carousel1">
+                        <video id="media1" width="210" height="119">
+                            <source src="カルーセル1.mp4">
+                        </video>
+                        <ul class="contr">
+                            <li>
+                                <button id="btn_play1"></button>
+                                <button id="btn_pause1"></button>
+                            </li>
+                        </ul>
+                        <!-- <label for="modal-checkc1">click</label>
+                        <input type="checkbox" id="modal-checkc1">
+                        <span class="modal">
+                            <label for="modal-checkc1">Close</label>
+                        </span> -->
+                    </div>
+
+                    <div class="back_carousel2">
+                        <video id="media2" width="210" height="119">
+                            <source src="カルーセル2.mp4">
+                        </video>
+                        <ul class="contr">
+                            <li>
+                                <button id="btn_play2"></button>
+                                <button id="btn_pause2"></button>
+                            </li>
+                        </ul>
+                        <!-- <label for="modal-checkc2">click</label>
+                        <input type="checkbox" id="modal-checkc2">
+                        <span class="modal">
+                            <label for="modal-checkc2">Close</label>
+                        </span> -->
+                    </div>
+                    <div class="back_carousel3">
+                        <video id="media3" width="210" height="119">
+                            <source src="カルーセル3.mp4">
+                        </video>
+                        <ul class="contr">
+                            <li>
+                                <button id="btn_play3"></button>
+                                <button id="btn_pause3"></button>
+                            </li>
+                        </ul>
+                        <!-- <label for="modal-checkc3">click</label>
+                        <input type="checkbox" id="modal-checkc3">
+                        <span class="modal">
+                            <label for="modal-checkc3">Close</label>
+                        </span> -->
+                    </div>
+                    <div class="back_carousel4">
+                        <video id="media4" width="210" height="119">
+                            <source src="カルーセル4.mp4">
+                        </video>
+                        <ul class="contr">
+                            <li>
+                                <button id="btn_play4"></button>
+                                <button id="btn_pause4"></button>
+                            </li>
+                        </ul>
+                        <!-- <label for="modal-checkc4">click</label>
+                        <input type="checkbox" id="modal-checkc4">
+                        <span class="modal">
+                            <label for="modal-checkc4">Close</label>
+                        </span> -->
+                    </div>
+                    <div class="back_carousel5">
+                        <video id="media5" width="210" height="119">
+                            <source src="カルーセル5.mp4">
+                        </video>
+                        <ul class="contr">
+                            <li>
+                                <button id="btn_play5"></button>
+                                <button id="btn_pause5"></button>
+                            </li>
+                        </ul>
+                        <!-- <label for="modal-checkc5">click</label>
+                        <input type="checkbox" id="modal-checkc5">
+                        <span class="modal">
+                            <label for="modal-checkc5">Close</label>
+                        </span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab_content" id="tab5_content">
+            <p>ポップアップ内アニメーション比較：左から1s, 1.1s 1.3s</p>
+            <div class="tab_content_description">
+
+                <div class="roadzip">
+                    <div class="boxroad">
+                        <div class="loader"></div>
+                        <label for="modal-checkr1">click</label>
+                        <input type="checkbox" id="modal-checkr1">
+                        <span class="modal">
+                            <div class="roadzip1">
+                                <div class="loader_1-1">
+                                </div>
+
+                                <div class="loader_1-2"></div>
+                                <div class="loader_1-3"></div>
+
+                            </div>
+
+                            <label for="modal-checkr1">Close</label>
+                        </span>
+                    </div>
+                    <div class="boxroad">
+                        <div class="loader2"></div>
+                        <label for="modal-checkr2">click</label>
+                        <input type="checkbox" id="modal-checkr2">
+                        <span class="modal">
+                            <div class="roadzip1">
+                                <div class="loader_2-1"></div>
+                                <div class="loader_2-2"></div>
+                                <div class="loader_2-3"></div>
+                            </div>
+                            <label for="modal-checkr2">Close</label>
+                        </span>
+                    </div>
+                    <div class="boxroad">
+                        <div class="loader3">
+                            <div class="loader3-bar"></div>
+                            <div class="loader3-bar"></div>
+                            <div class="loader3-bar"></div>
+                            <div class="loader3-bar"></div>
+                        </div>
+                        <label for="modal-checkr3">click</label>
+                        <input type="checkbox" id="modal-checkr3">
+                        <span class="modal">
+                            <div class="roadzip1">
+                                <div class="loader3_1">
+                                    <div class="loader3_1-bar"></div>
+                                    <div class="loader3_1-bar"></div>
+                                    <div class="loader3_1-bar"></div>
+                                    <div class="loader3_1-bar"></div>
+                                </div>
+                                <div class="loader3_2">
+                                    <div class="loader3_2-bar"></div>
+                                    <div class="loader3_2-bar"></div>
+                                    <div class="loader3_2-bar"></div>
+                                    <div class="loader3_2-bar"></div>
+                                </div>
+                                <div class="loader3_3">
+                                    <div class="loader3_3-bar"></div>
+                                    <div class="loader3_3-bar"></div>
+                                    <div class="loader3_3-bar"></div>
+                                    <div class="loader3_3-bar"></div>
+                                </div>
+                            </div>
+                            <label for="modal-checkr3">Close</label>
+                        </span>
+                    </div>
+                    <div class="boxroad">
+                        <div class="loader4">
+                            <div class="loader4-bar"></div>
+                            <div class="loader4-bar"></div>
+                            <div class="loader4-bar"></div>
+                            <div class="loader4-bar"></div>
+                        </div>
+                        <label for="modal-checkr4">click</label>
+                        <input type="checkbox" id="modal-checkr4">
+                        <span class="modal">
+                            <div class="roadzip1">
+                                <div class="loader4_1">
+                                    <div class="loader4_1-bar"></div>
+                                    <div class="loader4_1-bar"></div>
+                                    <div class="loader4_1-bar"></div>
+                                    <div class="loader4_1-bar"></div>
+                                </div>
+                                <div class="loader4_2">
+                                    <div class="loader4_2-bar"></div>
+                                    <div class="loader4_2-bar"></div>
+                                    <div class="loader4_2-bar"></div>
+                                    <div class="loader4_2-bar"></div>
+                                </div>
+                                <div class="loader4_3">
+                                    <div class="loader4_3-bar"></div>
+                                    <div class="loader4_3-bar"></div>
+                                    <div class="loader4_3-bar"></div>
+                                    <div class="loader4_3-bar"></div>
+                                </div>
+                            </div>
+                            <label for="modal-checkr4">Close</label>
+                        </span>
+                    </div>
+                    <div class="boxroad">
+                        <div class="loader5"></div>
+                        <label for="modal-checkr5">click</label>
+                        <input type="checkbox" id="modal-checkr5">
+                        <span class="modal">
+                            <div class="roadzip1">
+                                <div class="loader5_1"></div>
+                                <div class="loader5_2"></div>
+                                <div class="loader5_3"></div>
+                            </div>
+                            <label for="modal-checkr5">Close</label>
+                        </span>
+                    </div>
+                    <div class="boxroad">
+                        <div class="loader6"></div>
+                        <label for="modal-checkr6">click</label>
+                        <input type="checkbox" id="modal-checkr6">
+                        <span class="modal">
+                            <div class="roadzip1">
+                                <div class="loader6_1"></div>
+                                <div class="loader6_2"></div>
+                                <div class="loader6_3"></div>
+                            </div>
+                            <label for="modal-checkr6">Close</label>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $('.btn-trigger').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+
+        $(function () {
+            $('.btn-trigger-1_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-1_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-1_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-2_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-2_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-2_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-3_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-3_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-3_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-4_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-4_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-4_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-8_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-8_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-8_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-9_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-9_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-9_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-10_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-10_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+            $('.btn-trigger-10_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn-trigger05').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn-trigger06').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn-trigger07').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn1-trigger1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn1-trigger6_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn1-trigger6_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn1-trigger6_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+
+        $(function () {
+            $('.btn1-trigger7_1').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn1-trigger7_2').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+        $(function () {
+            $('.btn1-trigger7_3').on('click', function () {
+                $(this).toggleClass('active');
+                return false;
+            });
+        });
+
+
+    </script>
+
+    <script>
+        const mediaElem1 = document.getElementById('media1');
+        const playBtn1 = document.getElementById('btn_play1');
+        const pauseBtn1 = document.getElementById('btn_pause1');
+
+        playBtn1.addEventListener('click', function () {
+            mediaElem1.play();
+
+        });
+        pauseBtn1.addEventListener('click', function () {
+            mediaElem1.pause();
+        });
+
+
+        const mediaElem2 = document.getElementById('media2');
+        const playBtn2 = document.getElementById('btn_play2');
+        const pauseBtn2 = document.getElementById('btn_pause2');
+        playBtn2.addEventListener('click', function () {
+            mediaElem2.play();
+
+        });
+        pauseBtn2.addEventListener('click', function () {
+            mediaElem2.pause();
+        });
+
+        const mediaElem3 = document.getElementById('media3');
+        const playBtn3 = document.getElementById('btn_play3');
+        const pauseBtn3 = document.getElementById('btn_pause3');
+        playBtn3.addEventListener('click', function () {
+            mediaElem3.play();
+
+        });
+        pauseBtn3.addEventListener('click', function () {
+            mediaElem3.pause();
+        });
+
+        const mediaElem4 = document.getElementById('media4');
+        const playBtn4 = document.getElementById('btn_play4');
+        const pauseBtn4 = document.getElementById('btn_pause4');
+        playBtn4.addEventListener('click', function () {
+            mediaElem4.play();
+
+        });
+        pauseBtn4.addEventListener('click', function () {
+            mediaElem4.pause()
+        });
+
+        const mediaElem5 = document.getElementById('media5');
+        const playBtn5 = document.getElementById('btn_play5');
+        const pauseBtn5 = document.getElementById('btn_pause5');
+        playBtn5.addEventListener('click', function () {
+            mediaElem5.play();
+
+        });
+        pauseBtn5.addEventListener('click', function () {
+            mediaElem5.pause()
+        });
+    </script>
+</body>
+
+</html>
